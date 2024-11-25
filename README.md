@@ -4,44 +4,44 @@
 
 ## SQL QUERIES
 
-### Retrieve the names of all patients in the database.
-select name from healthcare;
+## Retrieve the names of all patients in the database.
+### select name from healthcare;
  ![image](https://github.com/user-attachments/assets/cb48a44f-84ef-4f53-83f5-2c0074545bdc)
 
-### List the unique medical conditions present in the dataset.
-select distinct(medical_condition) from healthcare;
+## List the unique medical conditions present in the dataset.
+### select distinct(medical_condition) from healthcare;
  ![image](https://github.com/user-attachments/assets/5701a5e5-0ec3-4a29-81f0-2d2c0ec3c517)
 
-### Find the total number of doctors in the healthcare system.
-select count(distinct(doctor)) from healthcare;
+## Find the total number of doctors in the healthcare system.
+### select count(distinct(doctor)) from healthcare;
 
 
 ![image](https://github.com/user-attachments/assets/49cac0e7-7707-48f3-938b-5fd7cba2d08f)
 
-### Retrieve the details of all female patients.
-  select * from healthcare where gender='female';
+## Retrieve the details of all female patients.
+ ### select * from healthcare where gender='female';
 
 ![image](https://github.com/user-attachments/assets/6f4601f8-6310-41a6-9a7c-04da2d145fef)
 
 
-### what is the average age of patients in the database.
-select avg(age) from healthcare;
+## what is the average age of patients in the database.
+### select avg(age) from healthcare;
 
 ![image](https://github.com/user-attachments/assets/6c46caee-53b0-42fe-a385-b000217175b4)
 
 
-### List the names of all doctors.
-    select distinct(doctor) from healthcare;
+## List the names of all doctors.
+   ### select distinct(doctor) from healthcare;
 
 ![image](https://github.com/user-attachments/assets/3b4f7467-47d3-4704-a797-4aa2a13f0a05)
 
-### Identify the most common medical condition among patients.
-select medical_condition,count(medical_condition) from healthcare group by medical_condition order by count(medical_condition) desc;
+## Identify the most common medical condition among patients.
+### select medical_condition,count(medical_condition) from healthcare group by medical_condition order by count(medical_condition) desc;
 
 ![image](https://github.com/user-attachments/assets/ea3713ea-a531-4219-82c4-c9623725a449)
 
-### Find the patients who are older than 60 years and have diabetes. 
-select * from healthcare where age > 60 and medical_condition='diabetes';
+## Find the patients who are older than 60 years and have diabetes. 
+### select * from healthcare where age > 60 and medical_condition='diabetes';
 
 ![image](https://github.com/user-attachments/assets/47da772d-a858-42d3-bee4-90fe87d52a27)
 
