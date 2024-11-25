@@ -90,12 +90,30 @@
 
 ![image](https://github.com/user-attachments/assets/0eec18aa-3ebd-4134-89b8-cf429c931aff)
 
-21. what are the names and blood groups of 
-patients admitted to room no. 292. 
-22. how many males have Arthritis.
-23. How many patients were admitted to Harris 
-and Sons hospital. 
-24. what are the names of patients whose 
-Insurance Provider are Cigna. 
-25. Name the Medical Condition having patients 
-whose ages is greater than average age
+## what are the names and blood groups of patients admitted to room no. 292. 
+### select *  from healthcare where room_number=292;
+
+![image](https://github.com/user-attachments/assets/fcf6c221-15f5-4dce-b7fd-257a632a262c)
+
+## how many males have Arthritis.
+### select count(*)  from healthcare where gender='male' and medical_condition='arthritis';
+
+![image](https://github.com/user-attachments/assets/c2df0b38-f0e4-419e-b042-7b9326f76602)
+
+## How many patients were admitted to Harris and Sons hospital.
+### select count(*)  from healthcare where hospital='harris and sons';
+
+![image](https://github.com/user-attachments/assets/34cde9bb-1f6c-456c-b69e-818e45b4e9b6)
+
+## what are the names of patients whose Insurance Provider are Cigna. 
+### select name from healthcare where insurance_provider='cigna';
+
+![image](https://github.com/user-attachments/assets/c1ef5a92-36a1-4236-a29f-5fd2cebece5f)
+
+
+
+## Name the Medical Condition having patients whose ages is greater than average age.
+### select medical_condition from healthcare where age>(select avg(age)  from healthcare);
+
+![image](https://github.com/user-attachments/assets/9f79e08e-b095-4b0c-ad03-afa779f0d060)
+
