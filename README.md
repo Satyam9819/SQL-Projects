@@ -1,6 +1,6 @@
 # SQL-Projects
 
-## Project 1: Health-Care Project
+# Project 1: Health-Care Project
 
 ## SQL QUERIES
 
