@@ -116,7 +116,7 @@
 ![image](https://github.com/user-attachments/assets/9f79e08e-b095-4b0c-ad03-afa779f0d060)
 
 
-# PROJECT 2: Movies Database
+# PROJECT 2: [Movies Database]("https://github.com/Satyam9819/SQL-Projects/blob/main/movies_sql.csv")
 
 ## .Retrieve the names of all the Bollywood movies which are of drama genre in the dataset.
 ### select * from movies_sql where genre='drama';
