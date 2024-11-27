@@ -1,6 +1,6 @@
 # SQL-Projects
 
-# Project 1: Health-Care Project
+# Project 1: [Health-Care Project](https://github.com/Satyam9819/SQL-Projects/blob/main/Healthcare.csv)
 
 ## SQL QUERIES
 
